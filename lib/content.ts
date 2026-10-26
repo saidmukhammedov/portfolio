@@ -1,30 +1,30 @@
 // ============================================================
 //  SAYTNING BARCHA SHAXSIY MA'LUMOTLARI SHU FAYLDA.
-//  Placeholderlar [KVADRAT QAVS] ichida yoki "Your ..." ko'rinishida.
-//  O'z ma'lumotlaringni kiritsang, butun sayt yangilanadi.
+//  Akbarali Saidmukhammedov — 2026-10-26
 // ============================================================
 
 export const me = {
-  firstName: "Your",
-  lastName: "Name",
-  fullName: "Your Name",
-  initials: "YN", // EG o'rniga — menu bar, avatar, footer
-  role: "Product Lead", // "Head of Product" o'rniga
-  tagline: "A placeholder version of a PM.", // footer'dagi qisqa tagline
-  email: "you@example.com",
-  company: { name: "YourCompany", url: "#" },
+  firstName: "Akbarali",
+  lastName: "Saidmukhammedov",
+  fullName: "Akbarali Saidmukhammedov",
+  monogram: "A", // Ɛ chip o'rniga
+  initials: "AS",
+  role: "Full Stack Coder",
+  tagline: "A Supersaiyan version of a coder.",
+  email: "akbaraliabduganievich@gmail.com",
+  company: { name: "DB Intelligence", url: "#" },
 
-  // Hero: "I'm Elena." / "I lead product at Arrive."
-  heroLine1: "I'm Your Name.",
-  heroLine2Pre: "I lead product at ",
-  heroLine2Link: "YourCompany",
+  // Hero: "I'm Akbarali." / "I'm a Full Stack Coder at DB Intelligence."
+  heroLine1: "I'm Akbarali.",
+  heroLine2Pre: "I'm a Full Stack Coder at ",
+  heroLine2Link: "DB Intelligence",
   heroSub:
-    "Managing engineers, customers, and building agent loops and graphs to make every person in my team more efficient.",
+    "Building products end to end — from database schemas and APIs to the interfaces people touch — and shipping things that make everyone around me faster.",
 
-  // Menu bar soati boshiga shahar (MIAMI o'rniga)
+  // Menu bar soati boshiga shahar
   clockCity: "TASHKENT",
 
-  // Ob-havo vidjeti (statik placeholder — keyin shaharingnomani yozing)
+  // Ob-havo vidjeti (statik)
   weatherCity: "Tashkent",
   weather: [
     { day: "We", temp: 31, icon: "☀️" },
@@ -36,29 +36,29 @@ export const me = {
     { day: "Tu", temp: 27, icon: "⛅" },
   ],
 
-  // Musiqa player (shu iTunes preview URL — o'z sevimli qo'shigingizni aytasiz)
+  // Musiqa player (placeholder — sevimli qo'shigingni ayt, almashtiraman)
   song: {
     title: "Psycho Killer",
     artist: "Talking Heads — Talking Heads: 77",
     audioUrl:
       "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/77/3d/5c/773d5c07-9fc9-72aa-1a6d-54bd7d37fadb/mzaf_6074514444011910273.plus.aac.p.m4a",
-    cover: "/album-psycho.jpg", // o'zingizning albom muqovangiz
+    cover: "/album-psycho.jpg",
   },
 
-  photo: "/selfie.jpg", // "Me and my dog" — o'z fotosingiz
+  photo: "/me.jpg", // "Me and my dog" 🐶
 
-  // Terminaldagi persona (elena-5 o'rniga)
-  shellUser: "visitor@yourname",
-  shellModel: "you-1",
+  // Terminaldagi persona
+  shellUser: "visitor@akbarali",
+  shellModel: "akbarali-1",
 };
 
 // ---------- Havolalar ----------
 export const links = {
-  cv: "#", // Notion yoki PDF havolangiz
+  cv: "#", // Notion yoki PDF havolang
   booking: "#", // Calendly / Google Calendar booking
-  linkedin: "#",
+  linkedin: "https://www.linkedin.com/in/saidmukhammedov",
   x: "#",
-  github: "#", // agar bo'lsa
+  github: "https://github.com/saidmukhammedov",
 };
 
 // Desktop'dagi o'ng tomondagi papkalar (case study'larga)
@@ -213,10 +213,10 @@ export const ventures = [
 
 // ---------- about-me.txt oynasi ----------
 export const about = {
-  then: "Starting as a product designer, shipping 0 to 1 products end to end. The seat kept widening on its own: research, then prototypes, then the roadmap, then the product itself.",
-  now: "Head of Product, leading an 18-person cross-functional team. Shipping production code, running the team's operating system, talking to customers directly, and building the AI infrastructure that makes everyone around me faster.",
+  then: "Starting as a curious kid who broke things just to see how they worked — then put them back together a little better. First scripts, then side projects, then full products people actually use.",
+  now: "Full Stack Coder at DB Intelligence, shipping features end to end — from database schemas and APIs to the interfaces people touch. Writing code across the whole stack, and enjoying every layer of it.",
   future:
-    "Return to my perfect form: ideal weight (18kg), glass skin, 12h of sleep, and not a single gray hair.",
+    "The perfect setup: mechanical keyboard, a second monitor, 8h of sleep, and not a single merge conflict.",
 };
 
 // ---------- Playground ----------
@@ -224,15 +224,15 @@ export const playground = {
   heading: "Old work, side projects & earlier gigs.",
   sub: "My personal gallery. Dropping random stuff I've done and things I like. My little corner of the internet.",
   sticky:
-    "I love whiteboarding. It's the closest thing to how my brain operates. If whiteboarding is your jam too, we are already friends.",
-  stickySign: "Your",
+    "I love building. Give me a terminal, a playlist and a problem worth solving — and I'm in flow for hours.",
+  stickySign: "Akbarali",
   hint: "Drag to pan. More coming to this board soon.",
 };
 
 // ---------- Terminal (desktop + playground) javoblari ----------
 export const terminalIntro = [
   "Last login: just now on ttys001",
-  "you-1 shell. Ask anything about me, or type `help`.",
+  "akbarali-1 shell. Ask anything about me, or type `help`.",
 ];
 
 export const terminalAnswers: { keys: string[]; lines: string[] }[] = [
@@ -251,29 +251,28 @@ export const terminalAnswers: { keys: string[]; lines: string[] }[] = [
   {
     keys: ["about", "who", "whois"],
     lines: [
-      "Your Name — Product Lead at YourCompany.",
-      "I ship production code, run the team's operating system,",
-      "and build the AI infrastructure around me.",
+      "Akbarali Saidmukhammedov — Full Stack Coder at DB Intelligence.",
+      "I ship features end to end, from database schemas to polished UIs.",
     ],
   },
   {
     keys: ["work", "building", "project"],
     lines: [
-      "Currently: agent loops and graphs at YourCompany.",
+      "Currently: building products at DB Intelligence.",
       "Open a folder on the desktop to read a case study.",
     ],
   },
   {
     keys: ["contact", "email", "reach"],
-    lines: ["Email: you@example.com", "Or book a meeting from the footer."],
+    lines: ["Email: akbaraliabduganievich@gmail.com", "Or book a meeting from the footer."],
   },
   {
     keys: ["socials", "links", "linkedin"],
-    lines: ["LinkedIn: linkedin.com/in/you", "X: x.com/you"],
+    lines: ["LinkedIn: linkedin.com/in/saidmukhammedov", "GitHub: github.com/saidmukhammedov"],
   },
   {
     keys: ["joke", "fun"],
-    lines: ["Why did the PM cross the roadmap?", "To prioritize the other side."],
+    lines: ["Why do programmers prefer dark mode?", "Because light attracts bugs."],
   },
 ];
 

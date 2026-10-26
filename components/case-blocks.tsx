@@ -169,7 +169,7 @@ export function Avatar({ size = 32 }: { size?: number }) {
       className="flex shrink-0 items-center justify-center rounded-lg bg-white font-clepto text-black ring-1 ring-black/10"
       style={{ width: size, height: size, fontSize: size * 0.5 }}
     >
-      Ɛ
+      {me.monogram}
     </span>
   );
 }

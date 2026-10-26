@@ -223,7 +223,7 @@ const generic = (title: string, subtitle: string, slug: string, intro: string, n
   slug,
   folder: title,
   title,
-  badge: "you-1",
+  badge: "akbarali-1",
   subtitle,
   intro,
   qa: [

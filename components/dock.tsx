@@ -17,7 +17,7 @@ function EChip({ size = 40, href }: { size?: number; href?: string }) {
       className="flex items-center justify-center rounded-[10px] bg-white font-clepto text-black shadow-sm ring-1 ring-black/5 transition hover:scale-110"
       style={{ width: size, height: size, fontSize: size * 0.5 }}
     >
-      Ɛ
+      {me.monogram}
     </span>
   );
   return href ? <a href={href} aria-label="Home">{inner}</a> : inner;
